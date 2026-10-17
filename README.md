@@ -11,9 +11,9 @@ Scraped node lists often mix community-run servers with dozens of unnamed raw-IP
 ## Contents
 
 - [Copy-paste node lists](#copy-paste-node-lists)
-- [1. Mainnet — HTTPS nodes (CA-signed TLS)](#1-mainnet--https-nodes-ca-signed-tls)
-- [2. Mainnet — HTTP and self-signed TLS nodes](#2-mainnet--http-and-self-signed-tls-nodes)
-- [3. Stagenet — Clearnet nodes (for testing)](#3-stagenet--clearnet-nodes-for-testing)
+- [1. Mainnet - HTTPS nodes (CA-signed TLS)](#1-mainnet--https-nodes-ca-signed-tls)
+- [2. Mainnet - HTTP and self-signed TLS nodes](#2-mainnet--http-and-self-signed-tls-nodes)
+- [3. Stagenet - Clearnet nodes (for testing)](#3-stagenet--clearnet-nodes-for-testing)
 - [4. Tor (`.onion`) nodes (Mainnet & Stagenet)](#4-tor-onion-nodes-mainnet--stagenet)
 - [5. Testnet nodes](#5-testnet-nodes)
 - [How fake and misconfigured nodes are filtered out](#how-fake-and-misconfigured-nodes-are-filtered-out)
@@ -25,7 +25,7 @@ Scraped node lists often mix community-run servers with dozens of unnamed raw-IP
 
 ## Copy-paste node lists
 
-### Mainnet HTTPS (valid TLS certificate — for web wallets, relays and payment servers)
+### Mainnet HTTPS (valid TLS certificate - for web wallets, relays and payment servers)
 
 ```ini
 MONERO_NODE_URLS=https://xmr-node.cakewallet.com:18081,https://node.sethforprivacy.com:443,https://node3.monerodevs.org:18089,https://node.monerodevs.org:18089,https://node2.monerodevs.org:18089,https://ravfx.its-a-node.org:18081,https://ravfx2.its-a-node.org:18089,https://xmr.cryptostorm.is:18081,https://xmr1.doggett.tech:18089,https://monero.stackwallet.com:18081
@@ -45,7 +45,7 @@ MONERO_STAGENET_NODE_URLS=http://node.sethforprivacy.com:38089,http://node3.mone
 
 ---
 
-## 1. Mainnet — HTTPS nodes (CA-signed TLS)
+## 1. Mainnet - HTTPS nodes (CA-signed TLS)
 
 These endpoints present a valid TLS certificate trusted by standard browsers and Node.js, run with `restricted_rpc: true`, and match the Mainnet top block hash (`4a9d7086922506d2...` at height `3786201`).
 
@@ -64,7 +64,7 @@ These endpoints present a valid TLS certificate trusted by standard browsers and
 
 ---
 
-## 2. Mainnet — HTTP and self-signed TLS nodes
+## 2. Mainnet - HTTP and self-signed TLS nodes
 
 These nodes are run by known community operators (and appear in Feather Wallet's default `nodes.json` or pool infrastructure), but use plain `http://` or a self-signed certificate on their RPC port. They work in desktop/CLI wallets that accept self-signed certs, but will be rejected by browsers and strict HTTPS clients unless proxied.
 
@@ -83,7 +83,7 @@ These nodes are run by known community operators (and appear in Feather Wallet's
 
 ---
 
-## 3. Stagenet — Clearnet nodes (for testing)
+## 3. Stagenet - Clearnet nodes (for testing)
 
 Stagenet uses the same rules as Mainnet with free test coins. All endpoints below were checked against Stagenet block `2231362` (hash `78ffcdcfe29d170c...`, difficulty `0x39c8eb`).
 

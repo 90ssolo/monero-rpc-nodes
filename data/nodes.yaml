@@ -16,7 +16,7 @@ consensus_snapshots:
     wide_difficulty: "0x23ce4"
 
 nodes:
-  # Mainnet — Clearnet HTTPS (CA-signed TLS)
+  # Mainnet - Clearnet HTTPS (CA-signed TLS)
   - id: "cakewallet-mainnet-https"
     url: "https://xmr-node.cakewallet.com:18081"
     host: "xmr-node.cakewallet.com"
@@ -187,7 +187,7 @@ nodes:
     verified_hash: "39e82f15d2143d73e28ae7492ed70d6d5838f2324953938df165816f3029e604"
     notes: "Official public Monero node operated by the Stack Wallet team."
 
-  # Mainnet — Clearnet HTTP / self-signed TLS
+  # Mainnet - Clearnet HTTP / self-signed TLS
   - id: "sethforprivacy-mainnet-http"
     url: "http://node.sethforprivacy.com:18089"
     host: "node.sethforprivacy.com"
@@ -307,7 +307,7 @@ nodes:
     verified_hash: "39e82f15d2143d73e28ae7492ed70d6d5838f2324953938df165816f3029e604"
     notes: "Public restricted RPC endpoint maintained by HashVault."
 
-  # Stagenet — Clearnet
+  # Stagenet - Clearnet
   - id: "sethforprivacy-stagenet-http"
     url: "http://node.sethforprivacy.com:38089"
     host: "node.sethforprivacy.com"
@@ -410,7 +410,7 @@ nodes:
     verified_hash: "78ffcdcfe29d170c952b7bdd150186891ae356a2e1086fe5ce9f1322ce4b897c"
     notes: "Asia-Pacific stagenet RPC node operated by XMR-TW."
 
-  # Testnet — Clearnet
+  # Testnet - Clearnet
   - id: "sethforprivacy-testnet-http"
     url: "http://node.sethforprivacy.com:28089"
     host: "node.sethforprivacy.com"

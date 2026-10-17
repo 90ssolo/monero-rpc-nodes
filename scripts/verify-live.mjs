@@ -82,7 +82,7 @@ async function main() {
     console.log(`=== ${net.toUpperCase()} (Online: ${online.length}/${netResults.length}, Median Height: ${medianHeight}) ===`);
     for (const r of netResults) {
       if (!r.ok) {
-        console.log(`  [OFFLINE] ${r.node.url} — ${r.error}`);
+        console.log(`  [OFFLINE] ${r.node.url} - ${r.error}`);
         continue;
       }
       const heightDelta = Math.abs(r.height - medianHeight);
