@@ -1,0 +1,36 @@
+{
+  "name": "monero-rpc-nodes",
+  "version": "1.0.0",
+  "description": "Curated, consensus-verified Monero (XMR) public remote RPC nodes for Mainnet, Stagenet, and Testnet with operator provenance, TLS/CORS audit data, and anti-fake verification scripts.",
+  "type": "module",
+  "main": "scripts/generate-readme.mjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/90ssolo/monero-rpc-nodes.git"
+  },
+  "homepage": "https://monkstash.com/monero-remote-node",
+  "scripts": {
+    "build": "node scripts/generate-readme.mjs",
+    "test": "node scripts/validate.mjs",
+    "verify-live": "node scripts/verify-live.mjs"
+  },
+  "keywords": [
+    "monero",
+    "xmr",
+    "monero-rpc",
+    "monero-nodes",
+    "monero-remote-node",
+    "monerod",
+    "stagenet",
+    "mainnet",
+    "testnet",
+    "tor",
+    "privacy-tools",
+    "cryptocurrency"
+  ],
+  "author": "MonkStash",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="300" role="img" aria-label="Monero Public RPC Nodes">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <style>
+      .eyebrow { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 1.5px; fill: #FB923C; }
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 40px; fill: #F8FAFC; }
+      .sub { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-size: 18px; fill: #94A3B8; }
+      .pill-bg { fill: #1E293B; stroke: #334155; stroke-width: 1.5; }
+      .pill-label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 13px; fill: #E2E8F0; }
+      .pill-dot-orange { fill: #FF6600; }
+      .pill-dot-green { fill: #10B981; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="5" rx="2.5" fill="#FF6600"/>
+
+  <g transform="translate(965, 74) scale(2.0)">
+    <circle cx="37.3" cy="37.3" r="37.2" fill="#FFFFFF"/>
+    <path d="m 37.3,0.35329395 c -20.377,0 -36.903,16.524 -36.903,36.902 0,4.074 0.66,7.992 1.88,11.657 l 11.036,0 0,-31.049 23.987,23.987 23.987,-23.987 0,31.049 11.037,0 c 1.22,-3.665 1.88,-7.583 1.88,-11.657 0,-20.378 -16.526,-36.902 -36.904,-36.902" fill="#FF6600"/>
+    <path d="m 21.3164,36.895994 0,19.537 -15.55,0 c 6.478,10.628 18.178,17.726 31.533,17.726 13.355,0 25.056,-7.098 31.533,-17.726 l -15.549,0 0,-19.537 -15.984,15.984 z" fill="#4C4C4C"/>
+  </g>
+
+  <text class="eyebrow" x="64" y="66">MAINNET • STAGENET • TOR • TESTNET</text>
+  <text class="title" x="64" y="118">Monero Public RPC Nodes</text>
+  <text class="sub" x="64" y="158">Checked public Monero (monerod) remote nodes run by known wallet teams and community</text>
+  <text class="sub" x="64" y="186">operators, with a script to verify block height, top block hash, TLS and fee estimates.</text>
+
+  <g transform="translate(64, 218)">
+    <rect class="pill-bg" x="0" y="0" width="175" height="36" rx="18"/>
+    <circle class="pill-dot-green" cx="20" cy="18" r="4"/>
+    <text class="pill-label" x="34" y="23">Mainnet &amp; Stagenet</text>
+
+    <rect class="pill-bg" x="190" y="0" width="165" height="36" rx="18"/>
+    <circle class="pill-dot-orange" cx="210" cy="18" r="4"/>
+    <text class="pill-label" x="224" y="23">CA-Signed HTTPS</text>
+
+    <rect class="pill-bg" x="370" y="0" width="160" height="36" rx="18"/>
+    <circle class="pill-dot-green" cx="390" cy="18" r="4"/>
+    <text class="pill-label" x="404" y="23">Tor .onion Nodes</text>
+
+    <rect class="pill-bg" x="545" y="0" width="175" height="36" rx="18"/>
+    <circle class="pill-dot-orange" cx="565" cy="18" r="4"/>
+    <text class="pill-label" x="579" y="23">JSON &amp; YAML Lists</text>
+  </g>
+</svg>
